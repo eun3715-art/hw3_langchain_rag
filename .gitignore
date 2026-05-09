@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# 런타임 생성 파일
+milvus_local.db
+structured_data.db
+rag_engine.log
+vector_db/
+
+# 환경
+.env
+.conda/
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
